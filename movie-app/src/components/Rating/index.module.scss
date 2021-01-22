@@ -1,0 +1,15 @@
+@import "../../assets/styles/variables";
+@import "../../assets/styles/mixins";
+
+
+.vote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+
+  color: $white;
+  background-color: $orange;
+  border-radius: 30px;
+}
