@@ -1,0 +1,40 @@
+@mixin link($link,$hover) {
+  a {
+    color: $link;
+  }
+
+  &:hover {
+    color: $hover
+  }
+}
+
+@mixin button($width,$height,$bgcColor,$fontSize) {
+  width: $width;
+  height: $height;
+
+  font-size: $fontSize;
+
+  border: none;
+  background-color: $bgcColor;
+
+  cursor: pointer;
+}
+
+@mixin selected($fontSize,$fontColor) {
+  color: $fontColor;
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  line-height: 1em;
+  font-size: $fontSize;
+}
+
+@mixin icon($width,$height,$color) {
+  margin: 5px;
+
+  height: $height;
+  width: $width;
+
+  color: $color;
+}

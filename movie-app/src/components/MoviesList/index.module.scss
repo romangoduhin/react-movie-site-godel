@@ -1,0 +1,89 @@
+@import "../../assets/styles/variables";
+@import "../../assets/styles/mixins";
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $gray;
+
+  .categoryTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+
+    .title {
+      font-size: 45px;
+    }
+
+    span {
+      @include selected(14px, $black)
+    }
+  }
+
+  .moviesList {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
+
+  .buttonBlock {
+    margin-top: 30px;
+
+    width: 10%;
+    height: 5vh;
+
+    button {
+      @include button(100%, 100%, $white, 25px);
+
+      transition: 1s;
+    }
+
+    &:hover {
+      button {
+        background-color: $orange;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    .categoryTitle {
+      height: 10vh;
+
+      .title {
+        font-size: 25px;
+      }
+
+      span {
+        @include selected(10px, $black)
+      }
+    }
+
+    .moviesList {
+      flex-direction: column;
+    }
+
+    .buttonBlock {
+      margin-top: 20px;
+      margin-bottom: 10px;
+
+      width: 90%;
+      height: 5vh;
+    }
+  }
+}
+
+
+
+
+
