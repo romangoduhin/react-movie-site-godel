@@ -1,4 +1,4 @@
-import moviesReducer from './moviesReducer';
+import moviesReducer from '../moviesReducer';
 
 const initialState = {
   nowPlaying: [],

@@ -1,4 +1,4 @@
-import authReducer from './authReducer';
+import authReducer from '../authReducer';
 
 const initialState = { // initialState for SET_USER_DATA
   userId: '',
