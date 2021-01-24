@@ -7,8 +7,7 @@ function Overlay({ handleClick }) {
 }
 
 Overlay.defaultProps = {
-  handleClick: () => {
-  },
+  handleClick: () => {},
 };
 
 Overlay.propTypes = {
