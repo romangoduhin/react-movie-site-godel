@@ -23,7 +23,7 @@ describe('moviesReducer SET_NOW_PLAYING_MOVIES', () => { // tests for moviesRedu
       nowPlaying: testData,
     });
 
-    expect(state.nowPlaying).toEqual = testData;
+    expect(state.nowPlaying).toEqual(testData);
   });
 });
 
@@ -35,7 +35,7 @@ describe('moviesReducer SET_TOP_RATED_MOVIE', () => { // tests for moviesReducer
       topRated: testData,
     });
 
-    expect(state.topRated).toEqual = testData;
+    expect(state.topRated).toEqual(testData);
   });
 });
 
@@ -47,7 +47,7 @@ describe('moviesReducer SET_POPULAR_MOVIE', () => { // tests for moviesReducer S
       popular: testData,
     });
 
-    expect(state.popular).toEqual = testData;
+    expect(state.popular).toEqual(testData);
   });
 });
 
@@ -59,7 +59,7 @@ describe('moviesReducer SET_UPCOMING_MOVIES', () => { // tests for moviesReducer
       upcoming: testData,
     });
 
-    expect(state.upcoming).toEqual = testData;
+    expect(state.upcoming).toEqual(testData);
   });
 });
 
@@ -71,7 +71,19 @@ describe('moviesReducer SET_SEARCHING_ITEMS', () => { // tests for moviesReducer
       searchingItems: testData,
     });
 
-    expect(state.searchingItems).toEqual = testData;
+    expect(state.searchingItems).toEqual(testData);
+  });
+});
+
+describe('moviesReducer SET_TOTAL_PAGES', () => { // tests for moviesReducer SET_TOTAL_PAGES
+  it('should get with data', () => {
+    let state;
+    state = moviesReducer(initialState, {
+      type: 'SET_TOTAL_PAGES',
+      totalPages: 2,
+    });
+
+    expect(state.totalPages).toEqual(2);
   });
 });
 
@@ -82,7 +94,7 @@ describe('moviesReducer without initialState', () => { // tests for moviesReduce
       type: 'SET_NOW_PLAYING_MOVIES',
       nowPlaying: testData,
     });
-    expect(state).toEqual = testData;
+    expect(state.nowPlaying).toEqual(testData);
   });
 });
 

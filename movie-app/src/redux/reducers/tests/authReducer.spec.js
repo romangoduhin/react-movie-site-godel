@@ -23,7 +23,7 @@ describe('authReducer SET_USER_DATA', () => { // tests for authReducer SET_USER_
       payload: testData,
     });
 
-    expect(state).toEqual = testData;
+    expect(state).toEqual(testData);
   });
 });
 
@@ -45,7 +45,7 @@ describe('authReducer without initialState', () => { // tests for authReducer wi
       type: 'SET_USER_DATA',
       payload: testData,
     });
-    expect(state).toEqual = testData;
+    expect(state).toEqual(testData);
   });
 });
 

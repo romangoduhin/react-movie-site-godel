@@ -47,4 +47,12 @@ describe('moviesActions', () => {
     };
     expect(actions.setSearchingItems(testData)).toEqual(expectedAction);
   });
+
+  it('should create an action setTotalPages ', () => {
+    const expectedAction = {
+      type: 'SET_TOTAL_PAGES',
+      totalPages: 2,
+    };
+    expect(actions.setTotalPages(2)).toEqual(expectedAction);
+  });
 });
