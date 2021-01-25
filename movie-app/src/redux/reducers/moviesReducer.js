@@ -4,6 +4,7 @@ import {
   SET_POPULAR_MOVIE,
   SET_SEARCHING_ITEMS,
   SET_UPCOMING_MOVIES,
+  SET_TOTAL_PAGES,
 } from '../actions/moviesActions';
 
 const initialState = {
@@ -12,6 +13,7 @@ const initialState = {
   popular: [],
   upcoming: [],
   searchingItems: [],
+  totalPages: 1,
 };
 
 const moviesReducer = (state = initialState, action) => {
@@ -44,6 +46,12 @@ const moviesReducer = (state = initialState, action) => {
       return {
         ...state,
         searchingItems: [...action.searchingItems],
+      };
+
+    case SET_TOTAL_PAGES:
+      return {
+        ...state,
+        totalPages: action.totalPages,
       };
 
     default:

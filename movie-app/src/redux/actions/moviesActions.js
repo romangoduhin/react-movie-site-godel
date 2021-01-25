@@ -3,6 +3,7 @@ export const SET_UPCOMING_MOVIES = 'SET_UPCOMING_MOVIES';
 export const SET_TOP_RATED_MOVIE = 'SET_TOP_RATED_MOVIE';
 export const SET_POPULAR_MOVIE = 'SET_POPULAR_MOVIE';
 export const SET_SEARCHING_ITEMS = 'SET_SEARCHING_ITEMS';
+export const SET_TOTAL_PAGES = 'SET_TOTAL_PAGES';
 
 export const setNowPlayingMovies = (nowPlaying) => (
   {
@@ -36,5 +37,12 @@ export const setSearchingItems = (searchingItems) => (
   {
     type: SET_SEARCHING_ITEMS,
     searchingItems,
+  }
+);
+
+export const setTotalPages = (totalPages) => (
+  {
+    type: SET_TOTAL_PAGES,
+    totalPages,
   }
 );
