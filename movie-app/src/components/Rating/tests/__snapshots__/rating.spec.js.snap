@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating component should render Rating component with props 1`] = `
+<div
+  className="vote"
+>
+  2
+</div>
+`;
+
+exports[`Rating component should render Rating component without props 1`] = `
+<div
+  className="vote"
+>
+  0
+</div>
+`;

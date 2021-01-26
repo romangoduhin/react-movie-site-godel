@@ -1,0 +1,240 @@
+@import "../../assets/styles/variables";
+@import "../../assets/styles/mixins";
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: auto;
+
+  background-color: $gray;
+
+  .trailerBlock {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    height: auto;
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .descriptionBlock {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    height: auto;
+
+    background-color: $white;
+
+    .description {
+      padding: 30px;
+
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+
+      .titleAndBudget {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .title {
+          font-size: 55px;
+        }
+
+        .budget {
+          font-size: 35px;
+        }
+      }
+
+      .movieInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+
+        .ratingAndRuntime {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          width: 50%;
+          height: 100%;
+
+          span {
+            margin-left: 20px;
+
+            color: $orange;
+            font-size: 17px;
+          }
+        }
+
+        .genres {
+          display: flex;
+          justify-content: flex-end;
+          flex-direction: row;
+          align-items: center;
+          width: 50%;
+          height: 100%;
+
+          div {
+            margin-right: 10px;
+
+            font-size: 20px;
+          }
+        }
+      }
+
+      .otherInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .prodCountries, .prodCompanies, .overview {
+          margin-top: 10px;
+
+          width: 100%;
+          height: auto;
+
+          p {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .reviewsBlock {
+    margin-top: 10px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: auto;
+
+    background-color: $white;
+
+    .reviews {
+      margin-top: 10px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      width: 100%;
+      height: 100%;
+
+      .author {
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        height: auto;
+
+        span {
+          color: $orange;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    .trailerBlock {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .descriptionBlock {
+      margin-top: 10px;
+      width: 100%;
+
+      .description {
+        padding: 10px;
+
+        .titleAndBudget {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .movieInfo {
+          flex-direction: column;
+          align-items: flex-start;
+          width: 100%;
+
+
+          .ratingAndRuntime {
+            justify-content: space-around;
+            width: 100%;
+
+            span {
+              font-size: 25px;
+            }
+          }
+
+          .genres {
+            margin-top: 10px;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+
+            div {
+              margin-right: 10px;
+
+              font-size: 20px;
+            }
+          }
+        }
+
+        .otherInfo {
+          .prodCountries, .prodCompanies, .overview {
+            margin-top: 20px;
+
+            width: 100%;
+
+            p {
+              font-size: 35px;
+            }
+          }
+        }
+      }
+    }
+
+    .reviewsBlock {
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
