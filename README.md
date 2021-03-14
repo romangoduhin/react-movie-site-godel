@@ -2,7 +2,7 @@
 I updated my recent project for Mastery @ Godel Technologies. 
 You can see it there [`https://bitbucket.org/romangoduhin1/react-movie-site/src/master/`](https://bitbucket.org/romangoduhin1/react-movie-site/src/master/)
 # Check it https://romangoduhin.github.io/react-movie-site-godel/
-## This is a movie site.
+### This is a movie site. You can watch the movie trailers, check information about the movies, search the movies.
 
 ## Data for authorization:
 ### email: test@gmail.com
