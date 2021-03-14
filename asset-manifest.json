@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-movie-site-godel/static/css/main.55194363.chunk.css",
+    "main.js": "/react-movie-site-godel/static/js/main.e751a9b2.chunk.js",
+    "main.js.map": "/react-movie-site-godel/static/js/main.e751a9b2.chunk.js.map",
+    "runtime-main.js": "/react-movie-site-godel/static/js/runtime-main.6ae86b97.js",
+    "runtime-main.js.map": "/react-movie-site-godel/static/js/runtime-main.6ae86b97.js.map",
+    "static/js/2.4a42a5fe.chunk.js": "/react-movie-site-godel/static/js/2.4a42a5fe.chunk.js",
+    "static/js/2.4a42a5fe.chunk.js.map": "/react-movie-site-godel/static/js/2.4a42a5fe.chunk.js.map",
+    "static/js/3.10b16022.chunk.js": "/react-movie-site-godel/static/js/3.10b16022.chunk.js",
+    "static/js/3.10b16022.chunk.js.map": "/react-movie-site-godel/static/js/3.10b16022.chunk.js.map",
+    "index.html": "/react-movie-site-godel/index.html",
+    "static/css/main.55194363.chunk.css.map": "/react-movie-site-godel/static/css/main.55194363.chunk.css.map",
+    "static/js/2.4a42a5fe.chunk.js.LICENSE.txt": "/react-movie-site-godel/static/js/2.4a42a5fe.chunk.js.LICENSE.txt",
+    "static/media/BurgerIcon.1322d8fa.svg": "/react-movie-site-godel/static/media/BurgerIcon.1322d8fa.svg",
+    "static/media/CloseIcon.27f14322.svg": "/react-movie-site-godel/static/media/CloseIcon.27f14322.svg",
+    "static/media/PlayIcon.bacb370b.svg": "/react-movie-site-godel/static/media/PlayIcon.bacb370b.svg",
+    "static/media/SearchIcon.fe61fc2e.svg": "/react-movie-site-godel/static/media/SearchIcon.fe61fc2e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ae86b97.js",
+    "static/js/2.4a42a5fe.chunk.js",
+    "static/css/main.55194363.chunk.css",
+    "static/js/main.e751a9b2.chunk.js"
+  ]
+}
