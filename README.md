@@ -1,8 +1,39 @@
-## React movie site
-
+# 👋 Hi , this is my project Moo Oui.com!
 I updated my recent project for Mastery @ Godel Technologies. 
-
 You can see it there [`https://bitbucket.org/romangoduhin1/react-movie-site/src/master/`](https://bitbucket.org/romangoduhin1/react-movie-site/src/master/)
+# Check it &&&&&&&&&&&&&&&&&&&&&&&&&&&
+## This is a movie site.
+
+## Data for authorization:
+### email: test@gmail.com
+### password: test123
+
+# Screenshots from desktop: 
+
+<img width="1000" alt="homepage1" src="https://i.ibb.co/dD0dXvC/homepage1.png ">
+<img width="1000" alt="homepage2" src="https://i.ibb.co/TwcQpYc/homepage2.png ">
+<img width="1000" alt="moviepage1" src="https://i.ibb.co/WHQBgnd/moviepage1.png">
+<img width="1000" alt="moviepage2" src="https://i.ibb.co/RHZbgFQ/moviepage2.png ">
+<img width="1000" alt="search" src="https://i.ibb.co/s1S37v2/search.png ">
+<img width="1000" alt="trailermodal" src="https://i.ibb.co/stQ69dW/trailermodal.png">
+<img width="1000" alt="burgermenu" src="https://i.ibb.co/kxgd1yH/burgermenu.png ">
+<img width="1000" alt="categorypage" src="https://i.ibb.co/Y75R006/categorypage.png ">
+<img width="1000" alt="authenticationpage" src="https://i.ibb.co/fM1yZ0m/authenticationpage.png ">
+
+
+# Screenshots from Iphone X (emulator):
+
+<img width="375" alt="homepage1" src="https://i.ibb.co/g6qJNTy/Mhomepage.png ">
+<img width="375" alt="homepage2" src="https://i.ibb.co/hWjVJp6/Mhomepage2.png">
+<img width="375" alt="homepage3" src="https://i.ibb.co/2MSFkYY/Mhomepage3.png">
+<img width="375" alt="moviepage1" src="https://i.ibb.co/ZMXwNkB/moviepage.png">
+<img width="375" alt="search" src="https://i.ibb.co/YWm0qvJ/Msearch.png">
+<img width="375" alt="trailermodal" src="https://i.ibb.co/6B744xv/Mmodalwindow.png">
+<img width="375" alt="burgermenu" src="https://i.ibb.co/fXY0Lgz/Mburgermenu.png">
+<img width="375" alt="categorypage" src="https://i.ibb.co/rF0LMzZ/Screenshot-1.png">
+<img width="375" alt="authenticationpage" src="https://i.ibb.co/TBZBcns/Mauthentication.png ">
+
+# What i used for it?
 
 ### `react`
 
@@ -39,3 +70,5 @@ I used this free API for getting movies and their info
 ### `Docker`
 
 I used Docker for deploying
+
+
