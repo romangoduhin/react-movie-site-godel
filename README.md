@@ -1,7 +1,7 @@
 # 👋 Hi , this is my project Moo Oui.com!
 I updated my recent project for Mastery @ Godel Technologies. 
 You can see it there [`https://bitbucket.org/romangoduhin1/react-movie-site/src/master/`](https://bitbucket.org/romangoduhin1/react-movie-site/src/master/)
-# Check it &&&&&&&&&&&&&&&&&&&&&&&&&&&
+# Check it https://romangoduhin.github.io/react-movie-site-godel/
 ## This is a movie site.
 
 ## Data for authorization:
